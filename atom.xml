@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://github.com/TemplarJQ/"/>
-  <updated>2019-01-13T13:20:20.871Z</updated>
+  <updated>2019-01-13T13:33:15.103Z</updated>
   <id>https://github.com/TemplarJQ/</id>
   
   <author>
@@ -17,13 +17,13 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>机器学习资料整理</title>
-    <link href="https://github.com/TemplarJQ/2019/01/13/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/"/>
-    <id>https://github.com/TemplarJQ/2019/01/13/机器学习资料整理/</id>
+    <title>机器学习和大数据资料整理</title>
+    <link href="https://github.com/TemplarJQ/2019/01/13/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%92%8C%E5%A4%A7%E6%95%B0%E6%8D%AE%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86/"/>
+    <id>https://github.com/TemplarJQ/2019/01/13/机器学习和大数据资料整理/</id>
     <published>2019-01-13T13:06:16.000Z</published>
-    <updated>2019-01-13T13:20:20.871Z</updated>
+    <updated>2019-01-13T13:33:15.103Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="机器学习相关技术链接"><a href="#机器学习相关技术链接" class="headerlink" title="机器学习相关技术链接"></a>机器学习相关技术链接</h1><p>贴一些常用的链接就不到Chorme tabs里找了。</p><h2 id="机器学习"><a href="#机器学习" class="headerlink" title="机器学习"></a>机器学习</h2><p><a href="https://drive.google.com/drive/my-drive" target="_blank" rel="noopener">我的google云盘</a><br><br><a href="https://www.bilibili.com/video/av9912938/?p=1" target="_blank" rel="noopener">吴恩达b站视频</a><br><br><a href="https://redstonewill.com/category/ai-notes/lin-ml-foundations/" target="_blank" rel="noopener">林轩石机器学习</a><br><br><a href="https://www.bilibili.com/video/av16001891/?p=28" target="_blank" rel="noopener">莫烦的TF教程</a><br><br><a href="https://blog.csdn.net/icefire_tyh/article/details/52064910" target="_blank" rel="noopener">西瓜书答案</a><br><br><a href="http://www.xuyankun.cn/2017/05/13/bayes/" target="_blank" rel="noopener">贝叶斯讲解</a><br><br><a href="https://github.com/ctgk/PRML">PRML书目</a><br><br><a href=""></a><br></p>]]></content>
+    <content type="html"><![CDATA[<h1 id="机器学习相关技术链接"><a href="#机器学习相关技术链接" class="headerlink" title="机器学习相关技术链接"></a>机器学习相关技术链接</h1><p>贴一些常用的链接就不到Chorme tabs里找了。</p><h2 id="机器学习"><a href="#机器学习" class="headerlink" title="机器学习"></a>机器学习</h2><p><a href="https://drive.google.com/drive/my-drive" target="_blank" rel="noopener">我的google云盘</a><br><br><a href="https://www.bilibili.com/video/av9912938/?p=1" target="_blank" rel="noopener">吴恩达b站视频</a><br><br><a href="https://redstonewill.com/category/ai-notes/lin-ml-foundations/" target="_blank" rel="noopener">林轩石机器学习</a><br><br><a href="https://www.bilibili.com/video/av16001891/?p=28" target="_blank" rel="noopener">莫烦的TF教程</a><br><br><a href="https://blog.csdn.net/icefire_tyh/article/details/52064910" target="_blank" rel="noopener">西瓜书答案</a><br><br><a href="http://www.xuyankun.cn/2017/05/13/bayes/" target="_blank" rel="noopener">贝叶斯讲解</a><br><br><a href="https://github.com/ctgk/PRML">PRML书目</a><br><br><!-- []()<br> --></p><h2 id="大数据"><a href="#大数据" class="headerlink" title="大数据"></a>大数据</h2><p><a href=""></a><br><br><a href=""></a><br><br><a href=""></a><br></p>]]></content>
     
     <summary type="html">
     
@@ -36,6 +36,8 @@
     </summary>
     
       <category term="机器学习" scheme="https://github.com/TemplarJQ/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+    
+      <category term="大数据" scheme="https://github.com/TemplarJQ/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/%E5%A4%A7%E6%95%B0%E6%8D%AE/"/>
     
     
       <category term="技术链接" scheme="https://github.com/TemplarJQ/tags/%E6%8A%80%E6%9C%AF%E9%93%BE%E6%8E%A5/"/>
