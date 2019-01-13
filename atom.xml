@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://templarjq.github.io/"/>
+  <link href="https://github.com/TemplarJQ/"/>
   <updated>2019-01-13T09:30:15.728Z</updated>
-  <id>https://templarjq.github.io/</id>
+  <id>https://github.com/TemplarJQ/</id>
   
   <author>
     <name>Jiaqi Liu</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>日志2019.1.13</title>
-    <link href="https://templarjq.github.io/2019/01/13/%E6%97%A5%E5%BF%972019-1-13/"/>
-    <id>https://templarjq.github.io/2019/01/13/日志2019-1-13/</id>
+    <link href="https://github.com/TemplarJQ/2019/01/13/%E6%97%A5%E5%BF%972019-1-13/"/>
+    <id>https://github.com/TemplarJQ/2019/01/13/日志2019-1-13/</id>
     <published>2019-01-13T09:15:26.000Z</published>
     <updated>2019-01-13T09:30:15.728Z</updated>
     
@@ -37,9 +37,9 @@
     </summary>
     
     
-      <category term="日志" scheme="https://templarjq.github.io/tags/%E6%97%A5%E5%BF%97/"/>
+      <category term="日志" scheme="https://github.com/TemplarJQ/tags/%E6%97%A5%E5%BF%97/"/>
     
-      <category term="心情" scheme="https://templarjq.github.io/tags/%E5%BF%83%E6%83%85/"/>
+      <category term="心情" scheme="https://github.com/TemplarJQ/tags/%E5%BF%83%E6%83%85/"/>
     
   </entry>
   
