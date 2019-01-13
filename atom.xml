@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://github.com/TemplarJQ/"/>
-  <updated>2019-01-13T13:49:50.065Z</updated>
+  <updated>2019-01-13T13:55:31.729Z</updated>
   <id>https://github.com/TemplarJQ/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>众包系统的开发</title>
+    <link href="https://github.com/TemplarJQ/2019/01/13/%E4%BC%97%E5%8C%85%E7%B3%BB%E7%BB%9F%E7%9A%84%E5%BC%80%E5%8F%91/"/>
+    <id>https://github.com/TemplarJQ/2019/01/13/众包系统的开发/</id>
+    <published>2019-01-13T13:51:55.000Z</published>
+    <updated>2019-01-13T13:55:31.729Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="边缘群智项目记录"><a href="#边缘群智项目记录" class="headerlink" title="边缘群智项目记录"></a>边缘群智项目记录</h1><p>2019.1.13打卡，明天下午一点开会，开始搞这个，记录一下流程。<hr><br><a href="https://github.com/EdgeIntelligenceChain/Materials2Study">众包相关知识</a><br><br><a href="https://github.com/EdgeIntelligenceChain/EdgenceChain/issues/6">快速代码上手</a><br></p><h2 id="项目入门"><a href="#项目入门" class="headerlink" title="项目入门"></a>项目入门</h2>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;边缘群智项目记录&quot;&gt;&lt;a href=&quot;#边缘群智项目记录&quot; class=&quot;headerlink&quot; title=&quot;边缘群智项目记录&quot;&gt;&lt;/a&gt;边缘群智项目记录&lt;/h1&gt;&lt;p&gt;2019.1.13打卡，明天下午一点开会，开始搞这个，记录一下流程。&lt;hr&gt;&lt;br&gt;&lt;a h
+      
+    
+    </summary>
+    
+      <category term="区块链" scheme="https://github.com/TemplarJQ/categories/%E5%8C%BA%E5%9D%97%E9%93%BE/"/>
+    
+      <category term="众包" scheme="https://github.com/TemplarJQ/categories/%E5%8C%BA%E5%9D%97%E9%93%BE/%E4%BC%97%E5%8C%85/"/>
+    
+    
+      <category term="项目笔记" scheme="https://github.com/TemplarJQ/tags/%E9%A1%B9%E7%9B%AE%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>机器学习和大数据资料整理</title>
