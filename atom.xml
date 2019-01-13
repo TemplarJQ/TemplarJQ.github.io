@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://github.com/TemplarJQ/"/>
-  <updated>2019-01-13T09:30:15.728Z</updated>
+  <updated>2019-01-13T12:55:26.552Z</updated>
   <id>https://github.com/TemplarJQ/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://github.com/TemplarJQ/2019/01/13/%E6%97%A5%E5%BF%972019-1-13/"/>
     <id>https://github.com/TemplarJQ/2019/01/13/日志2019-1-13/</id>
     <published>2019-01-13T09:15:26.000Z</published>
-    <updated>2019-01-13T09:30:15.728Z</updated>
+    <updated>2019-01-13T12:55:26.552Z</updated>
     
-    <content type="html"><![CDATA[<blockquote><p>胸有激雷而面若平湖者，可拜上将军。</p><footer><strong>孙子</strong><cite>——战国</cite></footer></blockquote><h3 id="写点东西"><a href="#写点东西" class="headerlink" title="写点东西"></a>写点东西</h3><p>hexo这个主意很早就有了，github上面传一点东西吧，写在日志里又觉得不是很合适，所以在这个期末考试结束，大家都休息下来的时间里，找个地方写点东西出来。</p>]]></content>
+    <content type="html"><![CDATA[<blockquote><p>胸有激雷而面若平湖者，可拜上将军。</p><footer><strong>孙子</strong><cite>——战国</cite></footer></blockquote><hr><h1 id="写点东西"><a href="#写点东西" class="headerlink" title="写点东西"></a>写点东西</h1><p>hexo这个主意很早就有了，github上面传一点东西吧，写在日志里又觉得不是很合适，所以在这个期末考试结束，大家都休息下来的时间里，找个地方写点东西出来。<br></p>]]></content>
     
     <summary type="html">
     
@@ -31,10 +31,14 @@
       
         &lt;blockquote&gt;&lt;p&gt;胸有激雷而面若平湖者，可拜上将军。&lt;/p&gt;
 &lt;footer&gt;&lt;strong&gt;孙子&lt;/strong&gt;&lt;cite&gt;——战国&lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;
-&lt;h3 id=&quot;写点东西&quot;&gt;&lt;a href=&quot;#写点东西&quot; class=
+&lt;hr&gt;
+
+&lt;h1 id=&quot;写点东西&quot;&gt;&lt;a href=&quot;#写点东西&quot; 
       
     
     </summary>
+    
+      <category term="日志" scheme="https://github.com/TemplarJQ/categories/%E6%97%A5%E5%BF%97/"/>
     
     
       <category term="日志" scheme="https://github.com/TemplarJQ/tags/%E6%97%A5%E5%BF%97/"/>
