@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[机器学习资料整理]]></title>
+    <url>%2F2019%2F01%2F13%2F%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99%E6%95%B4%E7%90%86%2F</url>
+    <content type="text"><![CDATA[机器学习相关技术链接贴一些常用的链接就不到Chorme tabs里找了。 机器学习我的google云盘吴恩达b站视频林轩石机器学习莫烦的TF教程西瓜书答案贝叶斯讲解PRML书目]]></content>
+      <categories>
+        <category>机器学习</category>
+      </categories>
+      <tags>
+        <tag>技术链接</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[日志2019.1.13]]></title>
     <url>%2F2019%2F01%2F13%2F%E6%97%A5%E5%BF%972019-1-13%2F</url>
     <content type="text"><![CDATA[胸有激雷而面若平湖者，可拜上将军。 孙子——战国 写点东西hexo这个主意很早就有了，github上面传一点东西吧，写在日志里又觉得不是很合适，所以在这个期末考试结束，大家都休息下来的时间里，找个地方写点东西出来。]]></content>
