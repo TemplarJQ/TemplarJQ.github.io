@@ -1,15 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[测试图]]></title>
-    <url>%2F2019%2F01%2F14%2F%E6%B5%8B%E8%AF%95%E5%9B%BE%2F</url>
-    <content type="text"><![CDATA[测试图片插入测试1测试2测试2-1测试3测试4]]></content>
-      <tags>
-        <tag>日志</tag>
-        <tag>心情</tag>
-      </tags>
-  </entry>
-  <entry>
     <title><![CDATA[VirtualEnv常用命令]]></title>
     <url>%2F2019%2F01%2F14%2FVirtualEnv%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%2F</url>
     <content type="text"><![CDATA[最近python用的多Pycharm的基本配置和记录中Virtualenv的使用都记录在这里。基本配置再有这是virtualenv的所有基础操作基础操作 自己Mac的virtualenv环境在：~/.virtualenv文件夹下面。]]></content>
@@ -23,7 +14,7 @@
   <entry>
     <title><![CDATA[日志模板]]></title>
     <url>%2F2019%2F01%2F14%2F%E6%97%A5%E5%BF%97%E6%A8%A1%E6%9D%BF%2F</url>
-    <content type="text"><![CDATA[XXXX 一级标题斜体文字加粗文字粗斜体文字 文本居中的引用测试测试2 hello worldfor(int i=0;i&lt;len;i++){ step++;} 文字内容 (md class_name supported) 文字内容 (md primary supported) 文字内容 (md default supported) 文字内容 (md success supported) 文字内容 (md info supported) 文字内容 (md warning supported) 文字内容 (md danger supported) 支持以 PDF 格式导出文稿 改进 Cmd 渲染算法，使用局部渲染技术提高渲染效率 新增 Todo 列表功能]]></content>
+    <content type="text"><![CDATA[XXXX # 一级标题斜体文字加粗文字粗斜体文字 文本居中的引用测试测试2 hello worldfor(int i=0;i&lt;len;i++){ step++;} 文字内容 (md class_name supported) 文字内容 (md primary supported) 文字内容 (md default supported) 文字内容 (md success supported) 文字内容 (md info supported) 文字内容 (md warning supported) 文字内容 (md danger supported) 支持以 PDF 格式导出文稿 改进 Cmd 渲染算法，使用局部渲染技术提高渲染效率 新增 Todo 列表功能]]></content>
       <categories>
         <category>日志</category>
       </categories>
