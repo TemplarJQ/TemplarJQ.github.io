@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://github.com/TemplarJQ/"/>
-  <updated>2019-01-14T08:52:38.037Z</updated>
+  <updated>2019-01-14T09:40:51.349Z</updated>
   <id>https://github.com/TemplarJQ/</id>
   
   <author>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>VirtualEnv常用命令</title>
-    <link href="https://github.com/TemplarJQ/2019/01/14/VirtualEnv%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
-    <id>https://github.com/TemplarJQ/2019/01/14/VirtualEnv常用命令/</id>
+    <link href="https://github.com/TemplarJQ/2019/01/14/VirtualEnv%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/VirtualEnv%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
+    <id>https://github.com/TemplarJQ/2019/01/14/VirtualEnv常用命令/VirtualEnv常用命令/</id>
     <published>2019-01-14T08:40:53.000Z</published>
-    <updated>2019-01-14T08:52:38.037Z</updated>
+    <updated>2019-01-14T09:40:51.349Z</updated>
     
     <content type="html"><![CDATA[<h1 id="最近python用的多"><a href="#最近python用的多" class="headerlink" title="最近python用的多"></a>最近python用的多</h1><p>Pycharm的基本配置和记录中Virtualenv的使用都记录在这里。<br><br><a href="https://www.cnblogs.com/geeklove01/p/8030214.html" target="_blank" rel="noopener">基本配置</a><br><br>再有这是virtualenv的所有基础操作<br><br><a href="https://blog.csdn.net/makodoo/article/details/79228692" target="_blank" rel="noopener">基础操作</a><br></p><p></p><p><br>自己Mac的virtualenv环境在：~/.virtualenv文件夹下面。<br></p>]]></content>
     
@@ -43,10 +43,10 @@
   
   <entry>
     <title>日志模板</title>
-    <link href="https://github.com/TemplarJQ/2019/01/14/%E6%97%A5%E5%BF%97%E6%A8%A1%E6%9D%BF/"/>
-    <id>https://github.com/TemplarJQ/2019/01/14/日志模板/</id>
+    <link href="https://github.com/TemplarJQ/2019/01/14/%E6%97%A5%E5%BF%97%E6%A8%A1%E6%9D%BF/%E6%97%A5%E5%BF%97%E6%A8%A1%E6%9D%BF/"/>
+    <id>https://github.com/TemplarJQ/2019/01/14/日志模板/日志模板/</id>
     <published>2019-01-14T08:11:13.000Z</published>
-    <updated>2019-01-14T09:22:53.293Z</updated>
+    <updated>2019-01-14T09:41:12.891Z</updated>
     
     <content type="html"><![CDATA[<!-- 引言 --><blockquote><footer><strong>XX</strong><cite>XX</cite></footer></blockquote><hr><!-- 引入图片 --><h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><p><em>斜体文字</em><br><strong>加粗文字</strong><br><strong><em>粗斜体文字</em></strong></p><blockquote class="blockquote-center"><p> 文本居中的引用<br>测试<br>测试2  </p></blockquote><!-- 分割线 --><hr><hr><!-- 行内代码 --><p><code>hello world</code><br><code>for(int i=0;i&lt;len;i++){</code><br>    <code>step++;</code><br><code>}</code></p><!-- 灰色底板 --><div class="note class_name">            <p>文字内容 (md class_name supported) </p>          </div><!-- 紫色 --><div class="note primary">            <p>文字内容 (md primary supported) </p>          </div><!-- 深灰 --><div class="note default">            <p>文字内容 (md default supported) </p>          </div><!-- 绿色 --><div class="note success">            <p>文字内容 (md success supported) </p>          </div><!-- 蓝色 --><div class="note info">            <p>文字内容 (md info supported) </p>          </div><!-- 黄色 --><div class="note warning">            <p>文字内容 (md warning supported) </p>          </div><!-- 红色 --><div class="note danger">            <p>文字内容 (md danger supported) </p>          </div><!-- 待办事项 --><ul><li style="list-style: none"><input type="checkbox"> 支持以 PDF 格式导出文稿</li><li style="list-style: none"><input type="checkbox"> 改进 Cmd 渲染算法，使用局部渲染技术提高渲染效率</li><li style="list-style: none"><input type="checkbox" checked> 新增 Todo 列表功能</li></ul>]]></content>
     
@@ -76,10 +76,10 @@
   
   <entry>
     <title>日志2019.1.14</title>
-    <link href="https://github.com/TemplarJQ/2019/01/14/%E6%97%A5%E5%BF%972019-1-14/"/>
-    <id>https://github.com/TemplarJQ/2019/01/14/日志2019-1-14/</id>
+    <link href="https://github.com/TemplarJQ/2019/01/14/%E6%97%A5%E5%BF%972019-1-14/%E6%97%A5%E5%BF%972019-1-14/"/>
+    <id>https://github.com/TemplarJQ/2019/01/14/日志2019-1-14/日志2019-1-14/</id>
     <published>2019-01-14T07:56:48.000Z</published>
-    <updated>2019-01-14T08:34:34.523Z</updated>
+    <updated>2019-01-14T09:41:07.176Z</updated>
     
     <content type="html"><![CDATA[<blockquote><p>Check my pulse, and if I’m dead, you owe me </p><footer><strong>The ChainSmoker</strong><cite>——《You Owe me》</cite></footer></blockquote><hr><h1 id="日子真快啊"><a href="#日子真快啊" class="headerlink" title="日子真快啊"></a>日子真快啊</h1><h2 id="又想起鸽王"><a href="#又想起鸽王" class="headerlink" title="又想起鸽王"></a>又想起鸽王</h2><p>最近烦心事还真是多呢，一烦心，就想起鸽王来了，翻翻歌单是2018-4-23创建的，谁成想现在都已经2019的1月份了。<br><br>有点悲秋的意思，感觉自己的研究生生活过的真的是非常快了，还记得刚上研究生那会儿的兵荒马乱，当时觉得好不容易摆脱了本科的乱七八糟课程学点自己喜欢的，是真的高兴。<br><br>啥东西都有利有弊，反正觉得现在也很开心，没什么不好的，把货一点一点干完吧，人事什么的变数很多，希望都能往利好的方向转变。<br><br>人，永远是这个世界最大的变数。<br></p><h2 id="回家"><a href="#回家" class="headerlink" title="回家"></a>回家</h2><p>1月26的票，到时候就能回家了，虽然也待不了几天，但是觉得也好歹是个假期，挺高兴的。<br><br>最近突然想学一波Latex，应该和markdown的东西差不多，还要放假找时间把爬虫项目写完，之前写的电商项目在DO上好像还剩一部分钱，把那个服务器上面的数据上面的都部署完。<br></p><p>TODO<br></p><ul><li style="list-style: none"><input type="checkbox"> 爬虫项目</li><li style="list-style: none"><input type="checkbox"> Latex学习</li></ul><h2 id="收获"><a href="#收获" class="headerlink" title="收获"></a>收获</h2><p>leetcode马上就200了，争取回家前到200，这就相当于半个月刷了40题，一天差不多三道，这个进度还可以的。<br><br>到500道还有300道要做，算起来还可以。<br><br>一个月差不多70-80道，上半年就能做个大概出来，6月份之前动规什么的一定要整的明明白白的，争取能开窍，不然做得再多也感觉很乏力。<br><br>还得把技术学好，但是也不能指望着靠工资挣钱，思路和脑子都要活泛。<br></p>]]></content>
     
@@ -104,12 +104,12 @@
   
   <entry>
     <title>众包项目</title>
-    <link href="https://github.com/TemplarJQ/2019/01/13/%E4%BC%97%E5%8C%85%E9%A1%B9%E7%9B%AE/"/>
-    <id>https://github.com/TemplarJQ/2019/01/13/众包项目/</id>
+    <link href="https://github.com/TemplarJQ/2019/01/13/%E4%BC%97%E5%8C%85%E9%A1%B9%E7%9B%AE/%E4%BC%97%E5%8C%85%E9%A1%B9%E7%9B%AE/"/>
+    <id>https://github.com/TemplarJQ/2019/01/13/众包项目/众包项目/</id>
     <published>2019-01-13T13:51:55.000Z</published>
-    <updated>2019-01-14T09:37:46.103Z</updated>
+    <updated>2019-01-14T09:40:42.675Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="边缘群智项目记录"><a href="#边缘群智项目记录" class="headerlink" title="边缘群智项目记录"></a>边缘群智项目记录</h1><p>2019.1.13打卡，明天下午一点开会，开始搞这个，记录一下流程。<hr><br><a href="https://github.com/EdgeIntelligenceChain/Materials2Study">众包相关知识</a><br><br><a href="https://github.com/EdgeIntelligenceChain/EdgenceChain/issues/6">快速代码上手</a><br></p><h2 id="项目入门"><a href="#项目入门" class="headerlink" title="项目入门"></a>项目入门</h2><p>项目介绍图，是一些学长的资料<br><br><img src="/TemplarJQ/2019/01/13/众包项目/2019/01/13/众包项目/introToCrowdsourcing.jpg" title="众包简介"><br><br><!-- ![众包简介](众包项目/introToCrowdsourcing.jpg) --></p>]]></content>
+    <content type="html"><![CDATA[<h1 id="边缘群智项目记录"><a href="#边缘群智项目记录" class="headerlink" title="边缘群智项目记录"></a>边缘群智项目记录</h1><p>2019.1.13打卡，明天下午一点开会，开始搞这个，记录一下流程。<hr><br><a href="https://github.com/EdgeIntelligenceChain/Materials2Study">众包相关知识</a><br><br><a href="https://github.com/EdgeIntelligenceChain/EdgenceChain/issues/6">快速代码上手</a><br></p><h2 id="项目入门"><a href="#项目入门" class="headerlink" title="项目入门"></a>项目入门</h2><p>项目介绍图，是一些学长的资料<br><br><br><br><!-- ![众包简介](众包项目/introToCrowdsourcing.jpg) --></p>]]></content>
     
     <summary type="html">
     
@@ -131,10 +131,10 @@
   
   <entry>
     <title>机器学习和大数据资料整理</title>
-    <link href="https://github.com/TemplarJQ/2019/01/13/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%92%8C%E5%A4%A7%E6%95%B0%E6%8D%AE%E9%93%BE%E6%8E%A5/"/>
-    <id>https://github.com/TemplarJQ/2019/01/13/机器学习和大数据链接/</id>
+    <link href="https://github.com/TemplarJQ/2019/01/13/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%92%8C%E5%A4%A7%E6%95%B0%E6%8D%AE%E9%93%BE%E6%8E%A5/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%92%8C%E5%A4%A7%E6%95%B0%E6%8D%AE%E9%93%BE%E6%8E%A5/"/>
+    <id>https://github.com/TemplarJQ/2019/01/13/机器学习和大数据链接/机器学习和大数据链接/</id>
     <published>2019-01-13T13:06:16.000Z</published>
-    <updated>2019-01-14T08:35:06.840Z</updated>
+    <updated>2019-01-14T09:41:17.342Z</updated>
     
     <content type="html"><![CDATA[<h1 id="机器学习相关技术链接"><a href="#机器学习相关技术链接" class="headerlink" title="机器学习相关技术链接"></a>机器学习相关技术链接</h1><p>贴一些常用的链接就不到Chorme tabs里找了。</p><h2 id="机器学习"><a href="#机器学习" class="headerlink" title="机器学习"></a>机器学习</h2><div class="note success">            <p><a href="https://drive.google.com/drive/my-drive" target="_blank" rel="noopener">我的google云盘</a><br><br><a href="https://www.bilibili.com/video/av9912938/?p=1" target="_blank" rel="noopener">吴恩达b站视频</a><br><br><a href="https://redstonewill.com/category/ai-notes/lin-ml-foundations/" target="_blank" rel="noopener">林轩石机器学习</a><br><br><a href="https://www.bilibili.com/video/av16001891/?p=28" target="_blank" rel="noopener">莫烦的TF教程</a><br><br><a href="https://blog.csdn.net/icefire_tyh/article/details/52064910" target="_blank" rel="noopener">西瓜书答案</a><br><br><a href="http://www.xuyankun.cn/2017/05/13/bayes/" target="_blank" rel="noopener">贝叶斯讲解</a><br><br><a href="https://github.com/ctgk/PRML">PRML书目</a><br></p>          </div><!-- []()<br> --><h2 id="大数据"><a href="#大数据" class="headerlink" title="大数据"></a>大数据</h2><div class="note success">            <p><a href="http://cs231n.github.io/" target="_blank" rel="noopener">CS231n: Convolutional Neural Networks for Visual Recognition</a><br><br><a href="https://courses.edx.org/courses/BerkeleyX/CS190.1x/1T2015/course/" target="_blank" rel="noopener">Scalable Machine Learning</a><br><br><a href="https://courses.edx.org/courses/course-v1:BerkeleyX+CS105x+1T2016/course/" target="_blank" rel="noopener">Introduction to Apache Spark</a><br></p>          </div>]]></content>
     
