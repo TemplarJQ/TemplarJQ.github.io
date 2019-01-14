@@ -46,9 +46,9 @@
     <link href="https://github.com/TemplarJQ/2019/01/14/%E6%97%A5%E5%BF%97%E6%A8%A1%E6%9D%BF/"/>
     <id>https://github.com/TemplarJQ/2019/01/14/日志模板/</id>
     <published>2019-01-14T08:11:13.000Z</published>
-    <updated>2019-01-14T08:20:56.814Z</updated>
+    <updated>2019-01-14T08:58:00.462Z</updated>
     
-    <content type="html"><![CDATA[<!-- 引言 --><blockquote><footer><strong>XX</strong><cite>XX</cite></footer></blockquote><hr><h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><p><em>斜体文字</em><br><strong>加粗文字</strong><br><strong><em>粗斜体文字</em></strong></p><blockquote class="blockquote-center"><p> 文本居中的引用<br>测试<br>测试2  </p></blockquote><!-- 分割线 --><hr><hr><!-- 行内代码 --><p><code>hello world</code><br><code>for(int i=0;i&lt;len;i++){</code><br>    <code>step++;</code><br><code>}</code></p><!-- 灰色底板 --><div class="note class_name">            <p>文字内容 (md class_name supported) </p>          </div><!-- 紫色 --><div class="note primary">            <p>文字内容 (md primary supported) </p>          </div><!-- 深灰 --><div class="note default">            <p>文字内容 (md default supported) </p>          </div><!-- 绿色 --><div class="note success">            <p>文字内容 (md success supported) </p>          </div><!-- 蓝色 --><div class="note info">            <p>文字内容 (md info supported) </p>          </div><!-- 黄色 --><div class="note warning">            <p>文字内容 (md warning supported) </p>          </div><!-- 红色 --><div class="note danger">            <p>文字内容 (md danger supported) </p>          </div><!-- 待办事项 --><ul><li style="list-style: none"><input type="checkbox"> 支持以 PDF 格式导出文稿</li><li style="list-style: none"><input type="checkbox"> 改进 Cmd 渲染算法，使用局部渲染技术提高渲染效率</li><li style="list-style: none"><input type="checkbox" checked> 新增 Todo 列表功能</li></ul>]]></content>
+    <content type="html"><![CDATA[<!-- 引言 --><blockquote><footer><strong>XX</strong><cite>XX</cite></footer></blockquote><hr><!-- 引入图片 --><h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><p><em>斜体文字</em><br><strong>加粗文字</strong><br><strong><em>粗斜体文字</em></strong></p><blockquote class="blockquote-center"><p> 文本居中的引用<br>测试<br>测试2  </p></blockquote><!-- 分割线 --><hr><hr><!-- 行内代码 --><p><code>hello world</code><br><code>for(int i=0;i&lt;len;i++){</code><br>    <code>step++;</code><br><code>}</code></p><!-- 灰色底板 --><div class="note class_name">            <p>文字内容 (md class_name supported) </p>          </div><!-- 紫色 --><div class="note primary">            <p>文字内容 (md primary supported) </p>          </div><!-- 深灰 --><div class="note default">            <p>文字内容 (md default supported) </p>          </div><!-- 绿色 --><div class="note success">            <p>文字内容 (md success supported) </p>          </div><!-- 蓝色 --><div class="note info">            <p>文字内容 (md info supported) </p>          </div><!-- 黄色 --><div class="note warning">            <p>文字内容 (md warning supported) </p>          </div><!-- 红色 --><div class="note danger">            <p>文字内容 (md danger supported) </p>          </div><!-- 待办事项 --><ul><li style="list-style: none"><input type="checkbox"> 支持以 PDF 格式导出文稿</li><li style="list-style: none"><input type="checkbox"> 改进 Cmd 渲染算法，使用局部渲染技术提高渲染效率</li><li style="list-style: none"><input type="checkbox" checked> 新增 Todo 列表功能</li></ul>]]></content>
     
     <summary type="html">
     
@@ -58,7 +58,9 @@
 &lt;blockquote&gt;&lt;footer&gt;&lt;strong&gt;XX&lt;/strong&gt;&lt;cite&gt;XX&lt;/cite&gt;&lt;/footer&gt;&lt;/blockquote&gt;
 &lt;hr&gt;
 
-&lt;h1 id=&quot;一级标题&quot;&gt;&lt;a href=&quot;#一级标题&quot; class=&quot;headerli
+&lt;!-- 引入图片 --&gt;
+
+&lt;h1 id=&quot;一级标题&quot;&gt;&lt;a href=&quot;#一级标题&quot; 
       
     
     </summary>
