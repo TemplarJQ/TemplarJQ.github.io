@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://github.com/TemplarJQ/"/>
-  <updated>2019-01-14T08:20:56.814Z</updated>
+  <updated>2019-01-14T08:48:24.266Z</updated>
   <id>https://github.com/TemplarJQ/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>VirtualEnv常用命令</title>
+    <link href="https://github.com/TemplarJQ/2019/01/14/VirtualEnv%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
+    <id>https://github.com/TemplarJQ/2019/01/14/VirtualEnv常用命令/</id>
+    <published>2019-01-14T08:40:53.000Z</published>
+    <updated>2019-01-14T08:48:24.266Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="最近python用的多"><a href="#最近python用的多" class="headerlink" title="最近python用的多"></a>最近python用的多</h1><p>Pycharm的基本配置和记录中Virtualenv的使用都记录在这里。<br></p><p></p><p><br>自己Mac的virtualenv环境在：~/.virtualenv文件夹下面。<br></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;最近python用的多&quot;&gt;&lt;a href=&quot;#最近python用的多&quot; class=&quot;headerlink&quot; title=&quot;最近python用的多&quot;&gt;&lt;/a&gt;最近python用的多&lt;/h1&gt;&lt;p&gt;Pycharm的基本配置和记录中Virtualenv的使用都记录在这
+      
+    
+    </summary>
+    
+      <category term="Python" scheme="https://github.com/TemplarJQ/categories/Python/"/>
+    
+    
+      <category term="技术链接" scheme="https://github.com/TemplarJQ/tags/%E6%8A%80%E6%9C%AF%E9%93%BE%E6%8E%A5/"/>
+    
+  </entry>
   
   <entry>
     <title>日志模板</title>
@@ -80,9 +105,9 @@
     <link href="https://github.com/TemplarJQ/2019/01/13/%E4%BC%97%E5%8C%85%E7%B3%BB%E7%BB%9F%E7%9A%84%E5%BC%80%E5%8F%91/"/>
     <id>https://github.com/TemplarJQ/2019/01/13/众包系统的开发/</id>
     <published>2019-01-13T13:51:55.000Z</published>
-    <updated>2019-01-14T08:21:02.576Z</updated>
+    <updated>2019-01-14T08:48:19.173Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="边缘群智项目记录"><a href="#边缘群智项目记录" class="headerlink" title="边缘群智项目记录"></a>边缘群智项目记录</h1><p>2019.1.13打卡，明天下午一点开会，开始搞这个，记录一下流程。<hr><br><a href="https://github.com/EdgeIntelligenceChain/Materials2Study">众包相关知识</a><br><br><a href="https://github.com/EdgeIntelligenceChain/EdgenceChain/issues/6">快速代码上手</a><br></p><h2 id="项目入门"><a href="#项目入门" class="headerlink" title="项目入门"></a>项目入门</h2><p>项目介绍图，是一些学长的资料<br><br><img src="/introToCrowsourcing.jpg" alt="众包简介"></p>]]></content>
+    <content type="html"><![CDATA[<h1 id="边缘群智项目记录"><a href="#边缘群智项目记录" class="headerlink" title="边缘群智项目记录"></a>边缘群智项目记录</h1><p>2019.1.13打卡，明天下午一点开会，开始搞这个，记录一下流程。<hr><br><a href="https://github.com/EdgeIntelligenceChain/Materials2Study">众包相关知识</a><br><br><a href="https://github.com/EdgeIntelligenceChain/EdgenceChain/issues/6">快速代码上手</a><br></p><h2 id="项目入门"><a href="#项目入门" class="headerlink" title="项目入门"></a>项目入门</h2><p>项目介绍图，是一些学长的资料<br><br><img src="image/introToCrowsourcing.jpg" alt="众包简介"></p>]]></content>
     
     <summary type="html">
     
@@ -107,7 +132,7 @@
     <link href="https://github.com/TemplarJQ/2019/01/13/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%92%8C%E5%A4%A7%E6%95%B0%E6%8D%AE%E9%93%BE%E6%8E%A5/"/>
     <id>https://github.com/TemplarJQ/2019/01/13/机器学习和大数据链接/</id>
     <published>2019-01-13T13:06:16.000Z</published>
-    <updated>2019-01-14T02:33:19.244Z</updated>
+    <updated>2019-01-14T08:35:06.840Z</updated>
     
     <content type="html"><![CDATA[<h1 id="机器学习相关技术链接"><a href="#机器学习相关技术链接" class="headerlink" title="机器学习相关技术链接"></a>机器学习相关技术链接</h1><p>贴一些常用的链接就不到Chorme tabs里找了。</p><h2 id="机器学习"><a href="#机器学习" class="headerlink" title="机器学习"></a>机器学习</h2><div class="note success">            <p><a href="https://drive.google.com/drive/my-drive" target="_blank" rel="noopener">我的google云盘</a><br><br><a href="https://www.bilibili.com/video/av9912938/?p=1" target="_blank" rel="noopener">吴恩达b站视频</a><br><br><a href="https://redstonewill.com/category/ai-notes/lin-ml-foundations/" target="_blank" rel="noopener">林轩石机器学习</a><br><br><a href="https://www.bilibili.com/video/av16001891/?p=28" target="_blank" rel="noopener">莫烦的TF教程</a><br><br><a href="https://blog.csdn.net/icefire_tyh/article/details/52064910" target="_blank" rel="noopener">西瓜书答案</a><br><br><a href="http://www.xuyankun.cn/2017/05/13/bayes/" target="_blank" rel="noopener">贝叶斯讲解</a><br><br><a href="https://github.com/ctgk/PRML">PRML书目</a><br></p>          </div><!-- []()<br> --><h2 id="大数据"><a href="#大数据" class="headerlink" title="大数据"></a>大数据</h2><div class="note success">            <p><a href="http://cs231n.github.io/" target="_blank" rel="noopener">CS231n: Convolutional Neural Networks for Visual Recognition</a><br><br><a href="https://courses.edx.org/courses/BerkeleyX/CS190.1x/1T2015/course/" target="_blank" rel="noopener">Scalable Machine Learning</a><br><br><a href="https://courses.edx.org/courses/course-v1:BerkeleyX+CS105x+1T2016/course/" target="_blank" rel="noopener">Introduction to Apache Spark</a><br></p>          </div>]]></content>
     
