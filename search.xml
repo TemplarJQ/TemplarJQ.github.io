@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[日志模板]]></title>
+    <url>%2F2019%2F01%2F14%2F%E6%97%A5%E5%BF%97%E6%A8%A1%E6%9D%BF%2F</url>
+    <content type="text"><![CDATA[XX——XX 一级标题斜体文字加粗文字粗斜体文字 文本居中的引用测试测试2 hello worldfor(int i=0;i&lt;len;i++){ step++;} 文字内容 (md class_name supported) 文字内容 (md primary supported) 文字内容 (md default supported) 文字内容 (md success supported) 文字内容 (md info supported) 文字内容 (md warning supported) 文字内容 (md danger supported) 支持以 PDF 格式导出文稿 改进 Cmd 渲染算法，使用局部渲染技术提高渲染效率 新增 Todo 列表功能]]></content>
+      <categories>
+        <category>日志</category>
+      </categories>
+      <tags>
+        <tag>日志</tag>
+        <tag>心情</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[日志2019-1-14]]></title>
+    <url>%2F2019%2F01%2F14%2F%E6%97%A5%E5%BF%972019-1-14%2F</url>
+    <content type="text"></content>
+  </entry>
+  <entry>
     <title><![CDATA[众包系统的开发]]></title>
     <url>%2F2019%2F01%2F13%2F%E4%BC%97%E5%8C%85%E7%B3%BB%E7%BB%9F%E7%9A%84%E5%BC%80%E5%8F%91%2F</url>
     <content type="text"><![CDATA[边缘群智项目记录2019.1.13打卡，明天下午一点开会，开始搞这个，记录一下流程。众包相关知识快速代码上手 项目入门项目介绍图，是一些学长的资料]]></content>
