@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://github.com/TemplarJQ/"/>
-  <updated>2019-01-14T09:45:26.231Z</updated>
+  <updated>2019-01-14T10:56:27.580Z</updated>
   <id>https://github.com/TemplarJQ/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://github.com/TemplarJQ/2019/01/14/VirtualEnv%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/"/>
     <id>https://github.com/TemplarJQ/2019/01/14/VirtualEnv常用命令/</id>
     <published>2019-01-14T08:40:53.000Z</published>
-    <updated>2019-01-14T09:45:26.231Z</updated>
+    <updated>2019-01-14T10:56:27.580Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="最近python用的多"><a href="#最近python用的多" class="headerlink" title="最近python用的多"></a>最近python用的多</h1><p>Pycharm的基本配置和记录中Virtualenv的使用都记录在这里。<br><br><a href="https://www.cnblogs.com/geeklove01/p/8030214.html" target="_blank" rel="noopener">基本配置</a><br><br>再有这是virtualenv的所有基础操作<br><br><a href="https://blog.csdn.net/makodoo/article/details/79228692" target="_blank" rel="noopener">基础操作</a><br></p><p></p><p><br>自己Mac的virtualenv环境在：~/.virtualenv文件夹下面。<br></p>]]></content>
+    <content type="html"><![CDATA[<h1 id="最近python用的多"><a href="#最近python用的多" class="headerlink" title="最近python用的多"></a>最近python用的多</h1><p>Pycharm的基本配置和记录中Virtualenv的使用都记录在这里。<br><br><a href="https://www.cnblogs.com/geeklove01/p/8030214.html" target="_blank" rel="noopener">基本配置</a><br><br>再有这是virtualenv的所有基础操作<br><br><a href="https://blog.csdn.net/makodoo/article/details/79228692" target="_blank" rel="noopener">基础操作</a><br></p><p></p><p><br>自己Mac的virtualenv环境在：~/.virtualenv文件夹下面。<br><br>一些常见的virtual命令：<br><br><img src="/2019/01/14/VirtualEnv常用命令/virtualenv命令.jpg" title="virtualenv常见命令"><br> </p>]]></content>
     
     <summary type="html">
     
