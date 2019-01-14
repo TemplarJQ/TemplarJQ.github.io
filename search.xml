@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[日志模板]]></title>
     <url>%2F2019%2F01%2F14%2F%E6%97%A5%E5%BF%97%E6%A8%A1%E6%9D%BF%2F</url>
-    <content type="text"><![CDATA[XX——XX 一级标题斜体文字加粗文字粗斜体文字 文本居中的引用测试测试2 hello worldfor(int i=0;i&lt;len;i++){ step++;} 文字内容 (md class_name supported) 文字内容 (md primary supported) 文字内容 (md default supported) 文字内容 (md success supported) 文字内容 (md info supported) 文字内容 (md warning supported) 文字内容 (md danger supported) 支持以 PDF 格式导出文稿 改进 Cmd 渲染算法，使用局部渲染技术提高渲染效率 新增 Todo 列表功能]]></content>
+    <content type="text"><![CDATA[XXXX 一级标题斜体文字加粗文字粗斜体文字 文本居中的引用测试测试2 hello worldfor(int i=0;i&lt;len;i++){ step++;} 文字内容 (md class_name supported) 文字内容 (md primary supported) 文字内容 (md default supported) 文字内容 (md success supported) 文字内容 (md info supported) 文字内容 (md warning supported) 文字内容 (md danger supported) 支持以 PDF 格式导出文稿 改进 Cmd 渲染算法，使用局部渲染技术提高渲染效率 新增 Todo 列表功能]]></content>
       <categories>
         <category>日志</category>
       </categories>
@@ -15,7 +15,14 @@
   <entry>
     <title><![CDATA[日志2019-1-14]]></title>
     <url>%2F2019%2F01%2F14%2F%E6%97%A5%E5%BF%972019-1-14%2F</url>
-    <content type="text"></content>
+    <content type="text"><![CDATA[Check my pulse, and if I’m dead, you owe me The ChainSmoker——《You Owe me》 日子真快又想起鸽王最近烦心事还真是多呢，一烦心，就想起鸽王来了，歌单是2018-4-23创建的，谁成想现在都已经2019的1月份了。有点悲秋的意思，感觉自己的研究生生活过的真的是非常快了，还记得刚上研究生那会儿的兵荒马乱，还觉得好不容易了本科的乱七八糟课程学点喜欢的，是真的高兴。]]></content>
+      <categories>
+        <category>日志</category>
+      </categories>
+      <tags>
+        <tag>日志</tag>
+        <tag>心情</tag>
+      </tags>
   </entry>
   <entry>
     <title><![CDATA[众包系统的开发]]></title>
