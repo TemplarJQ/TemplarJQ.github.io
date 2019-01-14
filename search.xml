@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[VirtualEnv常用命令]]></title>
     <url>%2F2019%2F01%2F14%2FVirtualEnv%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%2F</url>
-    <content type="text"><![CDATA[最近python用的多Pycharm的基本配置和记录中Virtualenv的使用都记录在这里。再有这是virtualenv的所有基础操作 自己Mac的virtualenv环境在：~/.virtualenv文件夹下面。]]></content>
+    <content type="text"><![CDATA[最近python用的多Pycharm的基本配置和记录中Virtualenv的使用都记录在这里。基本配置再有这是virtualenv的所有基础操作基础操作 自己Mac的virtualenv环境在：~/.virtualenv文件夹下面。]]></content>
       <categories>
         <category>Python</category>
       </categories>
