@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://github.com/TemplarJQ/"/>
-  <updated>2019-01-17T13:55:00.679Z</updated>
+  <updated>2019-01-22T13:52:21.879Z</updated>
   <id>https://github.com/TemplarJQ/</id>
   
   <author>
@@ -17,13 +17,38 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>P2P网络中内网穿透的方法</title>
+    <link href="https://github.com/TemplarJQ/2019/01/22/P2P%E7%BD%91%E7%BB%9C%E4%B8%AD%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F%E7%9A%84%E6%96%B9%E6%B3%95/"/>
+    <id>https://github.com/TemplarJQ/2019/01/22/P2P网络中内网穿透的方法/</id>
+    <published>2019-01-22T13:11:00.000Z</published>
+    <updated>2019-01-22T13:52:21.879Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="P2P网络中内网穿透的方法"><a href="#P2P网络中内网穿透的方法" class="headerlink" title="P2P网络中内网穿透的方法"></a>P2P网络中内网穿透的方法</h1><p>今天学长让我查一下这个，研究了一下，各种资料五花八门，自己总结了一下备查。<br><br>是关于一个局域网和外网之间连接的问题:<br><br><br><br><br><br>首先问题的关键在于：<br><br><img src="/2019/01/22/P2P网络中内网穿透的方法/resolution1.jpg" title="问题分析"><br></p><p>由于动态NAPT的映射关系是LAN侧数据包来触发的，如果WAN侧有主动进来的数据包，因为查询不到映射关系的存在，就会被丢弃掉。所以这时需要内网穿透。<br></p><h2 id="方案一"><a href="#方案一" class="headerlink" title="方案一"></a>方案一<br></h2><p>理念是构建一个公网中的服务端，两个内网中的客户端都相当于向该服务器注册，然后发送三次握手，可互相发现，实现NAT穿透。<br>Python写的比较常用的实现TCP内网穿透的服务器是ShootBack：<br><br><img src="/2019/01/22/P2P网络中内网穿透的方法/resolution2.jpg" title="tcp"><br></p><h2 id="方案二"><a href="#方案二" class="headerlink" title="方案二"></a>方案二<br></h2><p>另一个比较简单的方式是：端口映射(Port Mapping或者叫Port Forwarding)，也是最基本的一种方式。<br><br>它将NAPT网关WAN侧的指定端口映射到内网指定地址的指定端口上。 这样当网关收到一个从外网过来的封包，就会转发到上述指定的内网地址和端口，对于封包的发起者来说，就像是直接访问这个内网主机一样。<br><br>且当内网的地址和端口都希望是动态的时候就需要“动态端口映射”，也就是UPnP里面的IGD（Internet Gateway Device）控制协议。<br>这种方式下的情形就是： 把节点连接在某个UPnP分配的节点上，然后外部直接来连接这个端口。<br><br>现在了解到的python下分离并加强这种分配端口方法的的包就是miniUpnp，还有待于了解；<br><br>但这种方法存在的问题：<br><br>——使用UPNP穿透NAT的方法会使得机器不安全，极其容易卡死路由器和其他问题；<br><br>——最初是为各种设备，后来发展为一般都是为电驴等软件配置某一个外部端口的时候开启，而自己写的某种程序能否做到端口映射问题很大，且开源多基于C；<br><br>——这种方法受到不同网络状况和设备的影响很大；<br><br>——多用于家庭内的树莓派或者设备连接外部公司里电脑这种情况；<br></p><h2 id="方案三"><a href="#方案三" class="headerlink" title="方案三"></a>方案三<br></h2><p>STUN协议和TURN协议<br><br>STUN（Simple Traversal of UDP over NATs，NAT 的UDP简单穿越）是一种网络协议，它允许位于NAT（或多重NAT）后的客户端找出自己的公网地址，查出自己位于哪种类型的NAT之后以及NAT为某一 个本地端口所绑定的Internet端端口。这些信息被用来在两个同时处于NAT路由器之后的主机之间建立UDP通信。<br><br><img src="/2019/01/22/P2P网络中内网穿透的方法/resolution.jpg" title="stun"><br><br>如图，在N层NAT后面的client向Server询问自己的外网IP和端口号，然后直接用于连接，这样就可以直接使用外部端口和IP，避免使用私网IP和端口无法被访问的问题。<br><br>网上开源项目也很多：<br><br>显然pystun支持的是python2.7之前的版本，现在版本需要的是pynat。<br><br><img src="/2019/01/22/P2P网络中内网穿透的方法/resolution4.jpg" title="pynat"><br></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;P2P网络中内网穿透的方法&quot;&gt;&lt;a href=&quot;#P2P网络中内网穿透的方法&quot; class=&quot;headerlink&quot; title=&quot;P2P网络中内网穿透的方法&quot;&gt;&lt;/a&gt;P2P网络中内网穿透的方法&lt;/h1&gt;&lt;p&gt;今天学长让我查一下这个，研究了一下，各种资料五花八门
+      
+    
+    </summary>
+    
+      <category term="计算机网络" scheme="https://github.com/TemplarJQ/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
+    
+    
+      <category term="技术总结" scheme="https://github.com/TemplarJQ/tags/%E6%8A%80%E6%9C%AF%E6%80%BB%E7%BB%93/"/>
+    
+  </entry>
+  
+  <entry>
     <title>2019年的歌</title>
     <link href="https://github.com/TemplarJQ/2019/01/17/2019%E5%B9%B4%E7%9A%84%E6%AD%8C/"/>
     <id>https://github.com/TemplarJQ/2019/01/17/2019年的歌/</id>
     <published>2019-01-17T12:58:55.000Z</published>
-    <updated>2019-01-17T13:55:00.679Z</updated>
+    <updated>2019-01-22T13:52:25.903Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="记下来2019所有值得听的歌"><a href="#记下来2019所有值得听的歌" class="headerlink" title="记下来2019所有值得听的歌"></a>记下来2019所有值得听的歌</h1><p>这篇文章接《忽然想到的歌》这篇日记，才听到的，反复听的歌，一定要写下去。</p><h2 id="2019年1月"><a href="#2019年1月" class="headerlink" title="2019年1月"></a>2019年1月</h2><p>–《Billionaire》<br><br>火星哥的一曲，我居然到现在才听到，加到我的私人列表里面了，一定要学会，还是看《认哥》学的哈哈哈。<br></p><p>–《우리 사랑 이대로 我们的爱就这样》<br><br>钟国哥和真英《熊孩子》合唱的，这个不能忘了，容陷爱在2018最后一天都脱单了。<br></p><h2 id="2018下半年"><a href="#2018下半年" class="headerlink" title="2018下半年"></a>2018下半年</h2><p>–卷伊的三首吧<br><br>之前只听过《Riptide》，后来用尤克里里会弹了之后发现《we are going home》，《fire and the flood》和《Saturday sun》都很好听。<br></p><p>–《胡广生》<br><br>听了很久的歌，一首一首都从记忆里翻起来，和cc去看《无名之辈》，这首歌听了太多次了。<br></p><p>–《In Spite of Ourselves》<br><br>b站一个破产姐妹Caroline和她老公的视频，我这首歌一定要学会，找到一个爱的姑娘一起唱。《riptide》已经会啦。<br></p><p>–《New Soul》<br><br>《心动的信号》这俩能不能联系起来？哈哈。<br></p><p>–《I AM THE BEST》<br><br>和老妈在家里看《经常请吃饭的漂亮姐姐》可还行，孙艺珍是真女神了，可惜烂尾了。<br></p><p>–《只要平凡》<br><br>暑期补课，口琴也学会了这首歌，在学十15楼那个小阳台上，志豪的电子秤，万子聪的斧头，日了狗的PRML机器学习。<br></p><p>–《all my tears》<br><br>《浴血黑帮》那个男主差点被活埋的bgm，对我震撼太大了，男人，就是比谁撑得住，熬得住，谁就走得出来。<br></p><p>–《Sweet water》<br><br>《西部世界》刚刚开始拍，真的是回忆很多了，那个时候还在准备托福，日子过的是真的快。<br></p><p>–《Dirty Paws》<br><br>《白日梦想家》，一部回忆超多的电影了，常常能给我很多力量，多做事，多超越自己，多走出舒适区。<br></p><p>–《Renegades》<br><br>天下足球里面听到的，X特使的歌，那个滑板的视频，应该是刚开始健身的时候，还是夏天呢。<br></p><p>–《Spectre》<br><br>这首就不多说了，健身的时候在宿舍摆了一个垫子，够唱了一年的东西。<br></p><p>–《Home》Edward Sharpe and the Magnetic Zeros<br><br>这首都快能加到人生四曲里面了，太好听了，回忆少一点，但是也很喜欢听。<br></p>]]></content>
+    <content type="html"><![CDATA[<h1 id="记下来2019所有值得听的歌"><a href="#记下来2019所有值得听的歌" class="headerlink" title="记下来2019所有值得听的歌"></a>记下来2019所有值得听的歌</h1><p>这篇文章接《忽然想到的歌》这篇日记，才听到的，反复听的歌，一定要写下去。</p><h2 id="2019年1月"><a href="#2019年1月" class="headerlink" title="2019年1月"></a>2019年1月</h2><p>–《Billionaire》<br><br>火星哥的一曲，我居然到现在才听到，加到我的私人列表里面了，一定要学会，还是看《认哥》学的哈哈哈。<br></p><p>–《우리 사랑 이대로 ’我们的爱就这样‘》<br><br>钟国哥和洪真英《熊孩子》合唱的，这个不能忘了，容陷爱在2018最后一天都脱单了。<br></p><h2 id="2018下半年"><a href="#2018下半年" class="headerlink" title="2018下半年"></a>2018下半年</h2><p>–卷伊的三首吧<br><br>之前只听过《Riptide》，后来用尤克里里会弹了之后发现《we are going home》，《fire and the flood》和《Saturday sun》都很好听。<br></p><p>–《胡广生》<br><br>听了很久的歌，一首一首都从记忆里翻起来，和cc去看《无名之辈》，这首歌听了太多次了。<br></p><p>–《In Spite of Ourselves》<br><br>b站一个破产姐妹Caroline和她老公的视频，我这首歌一定要学会，找到一个爱的姑娘一起唱。《riptide》已经会啦。<br></p><p>–《New Soul》<br><br>《心动的信号》这俩能不能联系起来？哈哈。<br></p><p>–《I AM THE BEST》<br><br>和老妈在家里看《经常请吃饭的漂亮姐姐》可还行，孙艺珍是真女神了，可惜烂尾了。<br></p><p>–《只要平凡》<br><br>暑期补课，口琴也学会了这首歌，在学十15楼那个小阳台上，志豪的电子秤，万子聪的斧头，日了狗的PRML机器学习。<br></p><p>–《all my tears》<br><br>《浴血黑帮》那个男主差点被活埋的bgm，对我震撼太大了，男人，就是比谁撑得住，熬得住，谁就走得出来。<br></p><p>–《Sweet water》<br><br>《西部世界》刚刚开始拍，真的是回忆很多了，那个时候还在准备托福，日子过的是真的快。<br></p><p>–《Dirty Paws》<br><br>《白日梦想家》，一部回忆超多的电影了，常常能给我很多力量，多做事，多超越自己，多走出舒适区。<br></p><p>–《Renegades》<br><br>天下足球里面听到的，X特使的歌，那个滑板的视频，应该是刚开始健身的时候，还是夏天呢。<br></p><p>–《Spectre》<br><br>这首就不多说了，健身的时候在宿舍摆了一个垫子，够唱了一年的东西。<br></p><p>–《Home》Edward Sharpe and the Magnetic Zeros<br><br>这首都快能加到人生四曲里面了，太好听了，回忆少一点，但是也很喜欢听。<br></p>]]></content>
     
     <summary type="html">
     
@@ -48,7 +73,7 @@
     <link href="https://github.com/TemplarJQ/2019/01/17/%E5%BF%BD%E7%84%B6%E6%83%B3%E5%88%B0%E7%9A%84%E6%AD%8C/"/>
     <id>https://github.com/TemplarJQ/2019/01/17/忽然想到的歌/</id>
     <published>2019-01-17T12:22:59.000Z</published>
-    <updated>2019-01-17T13:47:34.964Z</updated>
+    <updated>2019-01-22T11:00:52.549Z</updated>
     
     <content type="html"><![CDATA[<h1 id="2019-1-17忽然想到的歌"><a href="#2019-1-17忽然想到的歌" class="headerlink" title="2019.1.17忽然想到的歌"></a>2019.1.17忽然想到的歌</h1><blockquote class="blockquote-center"><p> Because of you,<br>I  never stray too far from the sidewalk.<br>——《Because of You》 </p></blockquote><p><br><br>时间一晃眼就过去了很久很久，快过年了，今天忽然想到了很多生命中的歌。<br><br>太容易恋旧了，日子一长了，听到某些歌就会想起很多东西，人，事情。<br></p><h2 id="2018大学毕业"><a href="#2018大学毕业" class="headerlink" title="2018大学毕业"></a>2018大学毕业</h2><p>这一年大学毕业了，校园里放的歌很多，最流行的还是《Planet》《说散就散》《广东爱情故事》《我们不一样》《醉梦前尘》。。。<br><br>这一年A神也R.I.P了，我印象最深的一首歌应该是《For a better day》吧，考研之后虽然觉得自己挺稳的，但是内心还是十分忐忑，觉得什么都没底。战战兢兢开始在老师那里了解Docker和K8s，还买了老师关于云计算的书来看。在宿舍，留到很晚做毕设，枣园走了，我就在他床上坐着，一遍一遍听这首歌。<br></p><h3 id="2018上半年的狗生"><a href="#2018上半年的狗生" class="headerlink" title="2018上半年的狗生"></a>2018上半年的狗生</h3><p>下面都是些碎碎念。<br><br>整个2018年上半年过的可以说是和狗一样了，哈哈哈哈哈。<br><br>一言难尽的日子就不想写一肚子酸水了，皆是咎由自取。<br><br>6月份也没有出去疯玩儿，我这些年就是少了一股子疯狂，觉得自己少年老成，做事顾虑太多，导致之后自己都十分后悔，哈哈，今后可不许了~~我一定要在研究生毕业之前成功去皇马朝圣，这是我一致的追求，也要把吉他弹好，当成一生的爱好。<br></p><h3 id="2018下半年的人生"><a href="#2018下半年的人生" class="headerlink" title="2018下半年的人生"></a>2018下半年的人生</h3><p>开始于暑期补课，一首《只要平凡》，药神火的一塌糊涂，口琴也学会了这首歌，在学十15楼那个小阳台上，志豪的电子秤，万子聪的斧头，日了狗的PRML机器学习。还有一首《all my tears》，和帅气的《浴血黑帮》。<br><br>下半年一切都很好，很喜欢网研院，很喜欢学计算机，永远不会忘记自己的这个决定。大学的四年堕落都是因为自己的错误决定，志愿瞎填，对自己不负责。。。有时候真的觉得自己太弱了，想要的从来不去争取，总是该争取的时候就看开了，哈哈，可能骨子里是个道士，太脆弱。<br><br>愿不负这三年，不是一句空话，说到做到。<br></p><h2 id="2014高中毕业"><a href="#2014高中毕业" class="headerlink" title="2014高中毕业"></a>2014高中毕业</h2><p>都快忘了这一年发生了什么，就记得高考完了，早早买了一本世界杯的期刊，天天来回翻球星的资料，志愿也不好好看，不过好在德国队夺冠了，开心的一批。<br><br>那一年也是进入大学校园的一年，印象最深的就是两首歌《Let her go》，《rolling ing the deep》和《平凡之路》。<br><br>说起《Let her go》我就想起宏福的日子，在那个环形的小楼里，体育课，过生日，社联，高数，天通苑地铁站，评优，自己也不知道干了些什么，一年又一年就过去了，有时候觉得时间过得是真的很快。<br><br>说起《rolling in the deep》，哈哈哈哈哈，在阳台上一遍又一遍地瞎扭，照顾去夜店很晚回来的老特。<br><br>说起《平凡之路》就想起德阳很多的朋友，在宏福那个宿舍开黑，想起自己去华电走很远，想起和孙源去看《速度与激情8》，龙德广场，和蔡晨撸串，阁老的猎人号，晚上开团刷坐骑，搬家，聚餐···<br><br>真就这么过来了，本部的记忆反而很少，自己不知道把时间都浪费在了什么上面？<br><br>我要再沉迷打游戏就是个傻子。<br><br>认真过日子。<br></p><h2 id="2011初中毕业"><a href="#2011初中毕业" class="headerlink" title="2011初中毕业"></a>2011初中毕业</h2><p>可能就是一首《蓝莲花》吧，真的是听不厌。<br>初中的时候还听的是许巍的歌，看的是鬼吹灯，玩儿的是骑砍，LOL刚出来没多久，去阳光绿岛才第一次打？<br><br>在绿园那个房间里晚上看《盘龙》看到mp3没电，哈哈哈哈哈哈。<br><br>可能那个时候才了解到原来世界上有《少妇白洁》这种东西？对我是一种怎样的冲击，反正比知音大多了。<br><br>初中毕业干了点啥，就记住玩儿了，那会儿过年多有乐趣，天天看小叔叔打魔兽世界，我觉得这对我是一种印象很深的冲击，包括从兽王开始看网文，凡有所学，皆成性格。<br></p><h2 id="再往前？"><a href="#再往前？" class="headerlink" title="再往前？"></a>再往前？</h2><p>《Because of you》。<br><br>没有之一，我记得那时和李雪涛去新东方学英语，王府井被胡叔叔溜了一路皇城根，炎热的背景，想买的游戏碟，农大的校园和澡堂，帅气的人大英语老师，王冲导员，邹银凤老师，到现在都能记得，这首歌对我的影响太大了。。。。没有之一，现在听到，心里就会起来一阵寒颤，那些日子就在我脑子里，从来没有离开过。<br><br>认真生活。<br></p>]]></content>
     
@@ -160,9 +185,9 @@
     <link href="https://github.com/TemplarJQ/2019/01/13/%E4%BC%97%E5%8C%85%E9%A1%B9%E7%9B%AE/"/>
     <id>https://github.com/TemplarJQ/2019/01/13/众包项目/</id>
     <published>2019-01-13T13:51:55.000Z</published>
-    <updated>2019-01-14T10:51:06.855Z</updated>
+    <updated>2019-01-22T13:52:24.217Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="边缘群智项目记录"><a href="#边缘群智项目记录" class="headerlink" title="边缘群智项目记录"></a>边缘群智项目记录</h1><p>2019.1.13打卡，明天下午一点开会，开始搞这个，记录一下流程。<hr><br><a href="https://github.com/EdgeIntelligenceChain/Materials2Study">众包相关知识</a><br><br><a href="https://github.com/EdgeIntelligenceChain/EdgenceChain/issues/6">快速代码上手</a><br></p><h2 id="项目入门"><a href="#项目入门" class="headerlink" title="项目入门"></a>项目入门</h2><p>项目介绍图，是一些学长的资料<br><br><img src="/2019/01/13/众包项目/introToCrowdsourcing.jpg" title="众包简介"><br><br><!-- ![众包简介](众包项目/introToCrowdsourcing.jpg) --></p>]]></content>
+    <content type="html"><![CDATA[<h1 id="边缘群智项目记录"><a href="#边缘群智项目记录" class="headerlink" title="边缘群智项目记录"></a>边缘群智项目记录</h1><p>2019.1.13打卡，明天下午一点开会，开始搞这个，记录一下流程。<hr><br><a href="https://github.com/EdgeIntelligenceChain/Materials2Study">众包相关知识</a><br><br><a href="https://github.com/EdgeIntelligenceChain/EdgenceChain/issues/6">快速代码上手</a><br></p><h2 id="项目入门"><a href="#项目入门" class="headerlink" title="项目入门"></a>项目入门</h2><p>项目介绍图，是一些学长的资料<br><br><img src="/2019/01/13/众包项目/introToCrowdsourcing.jpg" title="众包简介"><br><br><!-- ![众包简介](众包项目/introToCrowdsourcing.jpg) --></p><h2 id="第一个研究问题"><a href="#第一个研究问题" class="headerlink" title="第一个研究问题"></a>第一个研究问题</h2><p>是关于一个局域网和外网之间连接的问题:<br><br><img src="/2019/01/13/众包项目/question.jpg" title="问题简介"><br><br><br><br>首先问题的关键在于：<br><br><img src="/2019/01/13/众包项目/resolution1.jpg" title="问题分析"><br></p><p>由于动态NAPT的映射关系是LAN侧数据包来触发的，如果WAN侧有主动进来的数据包，因为查询不到映射关系的存在，就会被丢弃掉。所以这时需要内网穿透。<br></p><h3 id="方案一"><a href="#方案一" class="headerlink" title="方案一"></a>方案一<br></h3><p>理念是构建一个公网中的服务端，两个内网中的客户端都相当于向该服务器注册，然后发送三次握手，可互相发现，实现NAT穿透。<br>Python写的比较常用的实现TCP内网穿透的服务器是ShootBack：<br><br><img src="/2019/01/13/众包项目/resolution2.jpg" title="tcp"><br></p><h3 id="方案二"><a href="#方案二" class="headerlink" title="方案二"></a>方案二<br></h3><p>另一个比较简单的方式是：端口映射(Port Mapping或者叫Port Forwarding)，也是最基本的一种方式。<br><br>它将NAPT网关WAN侧的指定端口映射到内网指定地址的指定端口上。 这样当网关收到一个从外网过来的封包，就会转发到上述指定的内网地址和端口，对于封包的发起者来说，就像是直接访问这个内网主机一样。<br><br>且当内网的地址和端口都希望是动态的时候就需要“动态端口映射”，也就是UPnP里面的IGD（Internet Gateway Device）控制协议。<br>这种方式下的情形就是： 把节点连接在某个UPnP分配的节点上，然后外部直接来连接这个端口。<br><br>现在了解到的python下分离并加强这种分配端口方法的的包就是miniUpnp，还有待于了解；<br><br>但这种方法存在的问题：<br><br>——使用UPNP穿透NAT的方法会使得机器不安全，极其容易卡死路由器和其他问题；<br><br>——最初是为各种设备，后来发展为一般都是为电驴等软件配置某一个外部端口的时候开启，而自己写的某种程序能否做到端口映射问题很大，且开源多基于C；<br><br>——这种方法受到不同网络状况和设备的影响很大；<br><br>——多用于家庭内的树莓派或者设备连接外部公司里电脑这种情况；<br></p><h3 id="方案三"><a href="#方案三" class="headerlink" title="方案三"></a>方案三<br></h3><p>STUN协议和TURN协议<br><br>STUN（Simple Traversal of UDP over NATs，NAT 的UDP简单穿越）是一种网络协议，它允许位于NAT（或多重NAT）后的客户端找出自己的公网地址，查出自己位于哪种类型的NAT之后以及NAT为某一 个本地端口所绑定的Internet端端口。这些信息被用来在两个同时处于NAT路由器之后的主机之间建立UDP通信。<br><br><img src="/2019/01/13/众包项目/resolution.jpg" title="stun"><br><br>如图，在N层NAT后面的client向Server询问自己的外网IP和端口号，然后直接用于连接，这样就可以直接使用外部端口和IP，避免使用私网IP和端口无法被访问的问题。<br><br>网上开源项目也很多：<br><br>显然pystun支持的是python2.7之前的版本，现在版本需要的是pynat。<br><br><img src="/2019/01/13/众包项目/resolution4.jpg" title="pynat"><br></p>]]></content>
     
     <summary type="html">
     
