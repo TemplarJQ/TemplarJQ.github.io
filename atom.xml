@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://github.com/TemplarJQ/"/>
-  <updated>2019-01-22T13:52:21.879Z</updated>
+  <updated>2019-07-02T03:47:53.311Z</updated>
   <id>https://github.com/TemplarJQ/</id>
   
   <author>
@@ -15,6 +15,20 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>关于Serverless与Faas的探究</title>
+    <link href="https://github.com/TemplarJQ/2019/07/02/%E5%85%B3%E4%BA%8EServerless%E4%B8%8EFaas%E7%9A%84%E6%8E%A2%E7%A9%B6/"/>
+    <id>https://github.com/TemplarJQ/2019/07/02/关于Serverless与Faas的探究/</id>
+    <published>2019-07-02T03:47:53.000Z</published>
+    <updated>2019-07-02T03:47:53.311Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>P2P网络中内网穿透的方法</title>
