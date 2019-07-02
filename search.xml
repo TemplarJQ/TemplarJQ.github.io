@@ -2,8 +2,14 @@
 <search>
   <entry>
     <title><![CDATA[关于Serverless与Faas的探究]]></title>
-    <url>%2F2019%2F07%2F02%2F%E5%85%B3%E4%BA%8EServerless%E4%B8%8EFaas%E7%9A%84%E6%8E%A2%E7%A9%B6%2F</url>
-    <content type="text"></content>
+    <url>%2F2019%2F05%2F11%2F%E5%85%B3%E4%BA%8EServerless%E4%B8%8EFaas%E7%9A%84%E6%8E%A2%E7%A9%B6%2F</url>
+    <content type="text"><![CDATA[关于Serverless与Faas这里的FAAS是指function as a service，主要实现有开源的OpenFaas（基于docker）与亚马逊的Lambda来实现。而Serverless现有的业界处理方案还是集中在下图类似的情景下：但注意，思维不要局限，这只是业界如何使用的例子，应当对如何进一步拓宽使用范围抱有信心。“将业务函数抽象成一个个 FAAS 函数，将数据库、缓存、加速等服务抽象成 BAAS 服务。上层提供 Restful 或事件触发机制调用，对应到不同的端（PC、移动端）。想要拓展平台能力，只要在端上做开放（组件接入）与 FAAS 服务做开放（后端接入）即可。” 对于现状的一种分析：这里挂一篇笔者的文章，参见笔记《理论 - 知乎：Serverless是进步还是退步》两篇论文的地址Serverless computing：One Step Forward，Two Steps BackCloud Programming Simplified：A Berkeley View on Serverless Computing 说的很清楚，现有的Serverless服务主要的一个优势和两个问题：Faas是“事件驱动”的，因此需要有更好的事件驱动支持优势：解耦，使得服务的部署更加简单以及松耦合. “提供了一种弹性的，自动扩缩容的编程模式，是一大进步。”劣势：1）传统服务为将代码传输到数据端工作，现有服务则是将数据传输到代码端工作，即“Data-shipping”模式，忽视了数据处理的效率2）阻碍了分布式计算的发展，“ Faas 的函数之间不是通过网络进行端到端通信的，那么以计算机网络为基础的分布式计算理论和通信协议，例如数据一致性，leader 选举，分布式事务等的发展会受到阻碍。” 联想的另一端是互联网之父的solid项目，有其他的参考意义在其中同时，RDF（Resource Description Framework）的理解，也有提及：即语义网]]></content>
+      <categories>
+        <category>云计算</category>
+      </categories>
+      <tags>
+        <tag>技术理论</tag>
+      </tags>
   </entry>
   <entry>
     <title><![CDATA[P2P网络中内网穿透的方法]]></title>

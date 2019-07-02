@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://github.com/TemplarJQ/"/>
-  <updated>2019-07-02T03:47:53.311Z</updated>
+  <updated>2019-07-02T03:53:47.159Z</updated>
   <id>https://github.com/TemplarJQ/</id>
   
   <author>
@@ -18,15 +18,26 @@
   
   <entry>
     <title>关于Serverless与Faas的探究</title>
-    <link href="https://github.com/TemplarJQ/2019/07/02/%E5%85%B3%E4%BA%8EServerless%E4%B8%8EFaas%E7%9A%84%E6%8E%A2%E7%A9%B6/"/>
-    <id>https://github.com/TemplarJQ/2019/07/02/关于Serverless与Faas的探究/</id>
-    <published>2019-07-02T03:47:53.000Z</published>
-    <updated>2019-07-02T03:47:53.311Z</updated>
+    <link href="https://github.com/TemplarJQ/2019/05/11/%E5%85%B3%E4%BA%8EServerless%E4%B8%8EFaas%E7%9A%84%E6%8E%A2%E7%A9%B6/"/>
+    <id>https://github.com/TemplarJQ/2019/05/11/关于Serverless与Faas的探究/</id>
+    <published>2019-05-11T03:47:53.000Z</published>
+    <updated>2019-07-02T03:53:47.159Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="关于Serverless与Faas"><a href="#关于Serverless与Faas" class="headerlink" title="关于Serverless与Faas"></a>关于Serverless与Faas</h1><p>这里的FAAS是指function as a service，主要实现有开源的OpenFaas（基于docker）与亚马逊的Lambda来实现。<br>而Serverless现有的业界处理方案还是集中在下图类似的情景下：<br>但注意，思维不要局限，这只是业界如何使用的例子，应当对如何进一步拓宽使用范围抱有信心。<br>“将业务函数抽象成一个个 FAAS 函数，将数据库、缓存、加速等服务抽象成 BAAS 服务。<br>上层提供 Restful 或事件触发机制调用，对应到不同的端（PC、移动端）。<br>想要拓展平台能力，只要在端上做开放（组件接入）与 FAAS 服务做开放（后端接入）即可。”</p><h2 id="对于现状的一种分析："><a href="#对于现状的一种分析：" class="headerlink" title="对于现状的一种分析："></a>对于现状的一种分析：</h2><p>这里挂一篇笔者的文章，参见笔记《理论 - 知乎：Serverless是进步还是退步》<br>两篇论文的地址<br><a href="https://arxiv.org/abs/1812.03651" target="_blank" rel="noopener">Serverless computing：One Step Forward，Two Steps Back</a><br><br><a href="https://www2.eecs.berkeley.edu/Pubs/TechRpts/2019/EECS-2019-3.html" target="_blank" rel="noopener">Cloud Programming Simplified：A Berkeley View on Serverless Computing</a><br></p><p>说的很清楚，现有的Serverless服务主要的一个优势和两个问题：<br>Faas是“事件驱动”的，因此需要有更好的事件驱动支持<br>优势：<br>解耦，使得服务的部署更加简单以及松耦合.</p><blockquote><p>“提供了一种弹性的，自动扩缩容的编程模式，是一大进步。”<br>劣势：<br>1）传统服务为将代码传输到数据端工作，现有服务则是将数据传输到代码端工作，即“Data-shipping”模式，忽视了数据处理的效率<br>2）阻碍了分布式计算的发展，<br>“ Faas 的函数之间不是通过网络进行端到端通信的，那么以计算机网络为基础的分布式计算理论和通信协议，例如数据一致性，leader 选举，分布式事务等的发展会受到阻碍。”</p></blockquote><h2 id="联想的另一端是互联网之父的solid项目，有其他的参考意义在其中"><a href="#联想的另一端是互联网之父的solid项目，有其他的参考意义在其中" class="headerlink" title="联想的另一端是互联网之父的solid项目，有其他的参考意义在其中"></a>联想的另一端是互联网之父的solid项目，有其他的参考意义在其中</h2><p>同时，RDF（Resource Description Framework）的理解，也有提及：即语义网</p>]]></content>
     
     <summary type="html">
     
+      
+      
+        &lt;h1 id=&quot;关于Serverless与Faas&quot;&gt;&lt;a href=&quot;#关于Serverless与Faas&quot; class=&quot;headerlink&quot; title=&quot;关于Serverless与Faas&quot;&gt;&lt;/a&gt;关于Serverless与Faas&lt;/h1&gt;&lt;p&gt;这里的FAAS是指f
+      
+    
     </summary>
     
+      <category term="云计算" scheme="https://github.com/TemplarJQ/categories/%E4%BA%91%E8%AE%A1%E7%AE%97/"/>
+    
+    
+      <category term="技术理论" scheme="https://github.com/TemplarJQ/tags/%E6%8A%80%E6%9C%AF%E7%90%86%E8%AE%BA/"/>
     
   </entry>
   

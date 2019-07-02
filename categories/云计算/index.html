@@ -96,23 +96,13 @@
 
 
 
-  <meta name="description" content="P2P网络中内网穿透的方法今天学长让我查一下这个，研究了一下，各种资料五花八门，自己总结了一下备查。是关于一个局域网和外网之间连接的问题:首先问题的关键在于： 由于动态NAPT的映射关系是LAN侧数据包来触发的，如果WAN侧有主动进来的数据包，因为查询不到映射关系的存在，就会被丢弃掉。所以这时需要内网穿透。 方案一理念是构建一个公网中的服务端，两个内网中的客户端都相当于向该服务器注册，然后发送三次">
-<meta name="keywords" content="技术总结">
-<meta property="og:type" content="article">
-<meta property="og:title" content="P2P网络中内网穿透的方法">
-<meta property="og:url" content="https://github.com/TemplarJQ/2019/01/22/P2P网络中内网穿透的方法/index.html">
+  <meta property="og:type" content="website">
+<meta property="og:title" content="LJQ&#39;s Blog">
+<meta property="og:url" content="https://github.com/TemplarJQ/categories/云计算/index.html">
 <meta property="og:site_name" content="LJQ&#39;s Blog">
-<meta property="og:description" content="P2P网络中内网穿透的方法今天学长让我查一下这个，研究了一下，各种资料五花八门，自己总结了一下备查。是关于一个局域网和外网之间连接的问题:首先问题的关键在于： 由于动态NAPT的映射关系是LAN侧数据包来触发的，如果WAN侧有主动进来的数据包，因为查询不到映射关系的存在，就会被丢弃掉。所以这时需要内网穿透。 方案一理念是构建一个公网中的服务端，两个内网中的客户端都相当于向该服务器注册，然后发送三次">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:image" content="https://github.com/2019/01/22/P2P网络中内网穿透的方法/resolution1.jpg">
-<meta property="og:image" content="https://github.com/2019/01/22/P2P网络中内网穿透的方法/resolution2.jpg">
-<meta property="og:image" content="https://github.com/2019/01/22/P2P网络中内网穿透的方法/resolution.jpg">
-<meta property="og:image" content="https://github.com/2019/01/22/P2P网络中内网穿透的方法/resolution4.jpg">
-<meta property="og:updated_time" content="2019-01-22T13:52:21.879Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="P2P网络中内网穿透的方法">
-<meta name="twitter:description" content="P2P网络中内网穿透的方法今天学长让我查一下这个，研究了一下，各种资料五花八门，自己总结了一下备查。是关于一个局域网和外网之间连接的问题:首先问题的关键在于： 由于动态NAPT的映射关系是LAN侧数据包来触发的，如果WAN侧有主动进来的数据包，因为查询不到映射关系的存在，就会被丢弃掉。所以这时需要内网穿透。 方案一理念是构建一个公网中的服务端，两个内网中的客户端都相当于向该服务器注册，然后发送三次">
-<meta name="twitter:image" content="https://github.com/2019/01/22/P2P网络中内网穿透的方法/resolution1.jpg">
+<meta name="twitter:title" content="LJQ&#39;s Blog">
 
 
 
@@ -121,7 +111,7 @@
 
 
 
-  <link rel="canonical" href="https://github.com/TemplarJQ/2019/01/22/P2P网络中内网穿透的方法/">
+  <link rel="canonical" href="https://github.com/TemplarJQ/categories/云计算/">
 
 
 
@@ -131,7 +121,7 @@
   };
 </script>
 
-  <title>P2P网络中内网穿透的方法 | LJQ's Blog</title>
+  <title>分类: 云计算 | LJQ's Blog</title>
   
 
 
@@ -179,7 +169,7 @@
     
   
 
-  <div class="container sidebar-position-left page-post-detail">
+  <div class="container sidebar-position-left ">
     <div class="headband"></div>
     <!--Github-start-->
     <a href="https://github.com/TemplarJQ" class="github-corner" aria-label="View source on GitHub"><svg width="80" height="80" viewbox="0 0 250 250" style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"/><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"/><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"/></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
@@ -257,7 +247,7 @@
         
         
           
-          <li class="menu-item menu-item-categories">
+          <li class="menu-item menu-item-categories menu-item-active">
 
     
     
@@ -345,206 +335,80 @@
           
             
 
+    
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+    
+
+  
+
+
           
           <div id="content" class="content">
             
 
-  <div id="posts" class="posts-expand">
-    
+  
+  
+  
+  <div class="post-block category">
 
-  
+    <div id="posts" class="posts-collapse">
+      <div class="collection-title">
+        <h1>云计算<small>分类</small>
+        </h1>
+      </div>
 
-  
-  
-  
-
-  
+      
+        
 
   <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://github.com/TemplarJQ/2019/01/22/P2P网络中内网穿透的方法/">
+    <header class="post-header">
 
-    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Jiaqi Liu">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/jfla头像.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="LJQ's Blog">
-    </span>
-
-    
-      <header class="post-header">
-
+      <h2 class="post-title">
         
+          <a class="post-title-link" href="/2019/05/11/关于Serverless与Faas的探究/" itemprop="url">
+            
+              <span itemprop="name">关于Serverless与Faas的探究</span>
+            
+          </a>
         
-          <h1 class="post-title" itemprop="name headline">P2P网络中内网穿透的方法
+      </h2>
 
-              
-            
-          </h1>
-        
+      <div class="post-meta">
+        <time class="post-time" itemprop="dateCreated" datetime="2019-05-11T11:47:53+08:00" content="2019-05-11">
+          05-11
+        </time>
+      </div>
 
-        <div class="post-meta">
-          <span class="post-time">
+    </header>
+  </article>
 
-            
-            
-            
-
-
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-
-              
-                
-              
-
-              <time title="创建时间：2019-01-22 21:11:00 / 修改时间：21:52:21" itemprop="dateCreated datePublished" datetime="2019-01-22T21:11:00+08:00">2019-01-22</time>
-            
-
-            
-              
-
-              
-            
-          </span>
-
-          
-            <span class="post-category">
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing"><a href="/categories/计算机网络/" itemprop="url" rel="index"><span itemprop="name">计算机网络</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        <h1 id="P2P网络中内网穿透的方法"><a href="#P2P网络中内网穿透的方法" class="headerlink" title="P2P网络中内网穿透的方法"></a>P2P网络中内网穿透的方法</h1><p>今天学长让我查一下这个，研究了一下，各种资料五花八门，自己总结了一下备查。<br><br>是关于一个局域网和外网之间连接的问题:<br><br><br><br><br><br>首先问题的关键在于：<br><br><img src="/2019/01/22/P2P网络中内网穿透的方法/resolution1.jpg" title="问题分析"><br></p>
-<p>由于动态NAPT的映射关系是LAN侧数据包来触发的，如果WAN侧有主动进来的数据包，因为查询不到映射关系的存在，就会被丢弃掉。所以这时需要内网穿透。<br></p>
-<h2 id="方案一"><a href="#方案一" class="headerlink" title="方案一"></a>方案一<br></h2><p>理念是构建一个公网中的服务端，两个内网中的客户端都相当于向该服务器注册，然后发送三次握手，可互相发现，实现NAT穿透。<br>Python写的比较常用的实现TCP内网穿透的服务器是ShootBack：<br><br><img src="/2019/01/22/P2P网络中内网穿透的方法/resolution2.jpg" title="tcp"><br></p>
-<h2 id="方案二"><a href="#方案二" class="headerlink" title="方案二"></a>方案二<br></h2><p>另一个比较简单的方式是：端口映射(Port Mapping或者叫Port Forwarding)，也是最基本的一种方式。<br><br>它将NAPT网关WAN侧的指定端口映射到内网指定地址的指定端口上。 这样当网关收到一个从外网过来的封包，就会转发到上述指定的内网地址和端口，对于封包的发起者来说，就像是直接访问这个内网主机一样。<br><br>且当内网的地址和端口都希望是动态的时候就需要“动态端口映射”，也就是UPnP里面的IGD（Internet Gateway Device）控制协议。<br>这种方式下的情形就是： 把节点连接在某个UPnP分配的节点上，然后外部直接来连接这个端口。<br><br>现在了解到的python下分离并加强这种分配端口方法的的包就是miniUpnp，还有待于了解；<br><br>但这种方法存在的问题：<br><br>——使用UPNP穿透NAT的方法会使得机器不安全，极其容易卡死路由器和其他问题；<br><br>——最初是为各种设备，后来发展为一般都是为电驴等软件配置某一个外部端口的时候开启，而自己写的某种程序能否做到端口映射问题很大，且开源多基于C；<br><br>——这种方法受到不同网络状况和设备的影响很大；<br><br>——多用于家庭内的树莓派或者设备连接外部公司里电脑这种情况；<br></p>
-<h2 id="方案三"><a href="#方案三" class="headerlink" title="方案三"></a>方案三<br></h2><p>STUN协议和TURN协议<br><br>STUN（Simple Traversal of UDP over NATs，NAT 的UDP简单穿越）是一种网络协议，它允许位于NAT（或多重NAT）后的客户端找出自己的公网地址，查出自己位于哪种类型的NAT之后以及NAT为某一 个本地端口所绑定的Internet端端口。这些信息被用来在两个同时处于NAT路由器之后的主机之间建立UDP通信。<br><br><img src="/2019/01/22/P2P网络中内网穿透的方法/resolution.jpg" title="stun"><br><br>如图，在N层NAT后面的client向Server询问自己的外网IP和端口号，然后直接用于连接，这样就可以直接使用外部端口和IP，避免使用私网IP和端口无法被访问的问题。<br><br>网上开源项目也很多：<br><br>显然pystun支持的是python2.7之前的版本，现在版本需要的是pynat。<br><br><img src="/2019/01/22/P2P网络中内网穿透的方法/resolution4.jpg" title="pynat"><br></p>
 
       
     </div>
 
-    
-
-    
-    
-    
-
-    
-
-    
-      
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-        <div class="post-tags">
-          
-            <a href="/tags/技术总结/" rel="tag"><i class="fa fa-tag"></i> 技术总结</a>
-          
-        </div>
-      
-
-      
-      
-      
-
-      
-        <div class="post-nav">
-          <div class="post-nav-next post-nav-item">
-            
-              <a href="/2019/01/14/VirtualEnv常用命令/" rel="next" title="VirtualEnv常用命令">
-                <i class="fa fa-chevron-left"></i> VirtualEnv常用命令
-              </a>
-            
-          </div>
-
-          <span class="post-nav-divider"></span>
-
-          <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2019/05/11/关于Serverless与Faas的探究/" rel="prev" title="关于Serverless与Faas的探究">
-                关于Serverless与Faas的探究 <i class="fa fa-chevron-right"></i>
-              </a>
-            
-          </div>
-        </div>
-      
-
-      
-      
-    </footer>
   </div>
   
   
   
-  </article>
-
-
-  </div>
-
-
-          </div>
-          
 
   
 
 
+
+          </div>
+          
 
         </div>
         
@@ -565,17 +429,8 @@
       
 
       
-        <ul class="sidebar-nav motion-element">
-          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
-            文章目录
-          </li>
-          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
-            站点概览
-          </li>
-        </ul>
-      
 
-      <div class="site-overview-wrap sidebar-panel">
+      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
             
@@ -747,23 +602,6 @@
       </div>
 
       
-      <!--noindex-->
-        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
-          <div class="post-toc">
-
-            
-            
-            
-            
-
-            
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#P2P网络中内网穿透的方法"><span class="nav-number">1.</span> <span class="nav-text">P2P网络中内网穿透的方法</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#方案一"><span class="nav-number">1.1.</span> <span class="nav-text">方案一</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#方案二"><span class="nav-number">1.2.</span> <span class="nav-text">方案二</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#方案三"><span class="nav-number">1.3.</span> <span class="nav-text">方案三</span></a></li></ol></li></ol></div>
-            
-
-          </div>
-        </div>
-      <!--/noindex-->
-      
 
       
 
@@ -897,10 +735,6 @@
 
 
   
-  <script src="/js/src/scrollspy.js?v=6.7.0"></script>
-<script src="/js/src/post-details.js?v=6.7.0"></script>
-
-
 
   
 
@@ -910,8 +744,6 @@
 
 
   
-  
-
 
 
 
